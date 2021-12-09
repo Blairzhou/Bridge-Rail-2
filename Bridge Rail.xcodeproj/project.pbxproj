@@ -7,27 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CC6345B3430605FE74F8468 /* Pods_Bridge_Rail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20243F2745FCFE064CBD5A2 /* Pods_Bridge_Rail.framework */; };
 		E21741712744989800DB5FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21741702744989800DB5FEB /* AppDelegate.swift */; };
 		E21741732744989800DB5FEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21741722744989800DB5FEB /* SceneDelegate.swift */; };
-		E21741752744989800DB5FEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21741742744989800DB5FEB /* ViewController.swift */; };
+		E21741752744989800DB5FEB /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21741742744989800DB5FEB /* SearchTableViewController.swift */; };
 		E21741782744989800DB5FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21741762744989800DB5FEB /* Main.storyboard */; };
 		E217417A2744989A00DB5FEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21741792744989A00DB5FEB /* Assets.xcassets */; };
 		E217417D2744989A00DB5FEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E217417B2744989A00DB5FEB /* LaunchScreen.storyboard */; };
+		E21741852744A7DD00DB5FEB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E21741842744A7DD00DB5FEB /* Podfile */; };
+		E2174189274ECA8700DB5FEB /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2174188274ECA8700DB5FEB /* SearchTableViewCell.swift */; };
+		E217418C274F2EFF00DB5FEB /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217418B274F2EFF00DB5FEB /* APIService.swift */; };
+		E217418F274F334900DB5FEB /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217418E274F334900DB5FEB /* SearchResults.swift */; };
+		E21741912752DFEC00DB5FEB /* SearchPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21741902752DFEC00DB5FEB /* SearchPlaceholderView.swift */; };
+		E21741942753051E00DB5FEB /* UIAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21741932753051E00DB5FEB /* UIAnimatable.swift */; };
+		E217419627543E9400DB5FEB /* TimeSeriesMonthlyAdjusted.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217419527543E9400DB5FEB /* TimeSeriesMonthlyAdjusted.swift */; };
+		E217419827546D2900DB5FEB /* CalculatorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217419727546D2900DB5FEB /* CalculatorTableViewController.swift */; };
+		E217419A27555E3200DB5FEB /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217419927555E3200DB5FEB /* Asset.swift */; };
+		E217419D2755C3FD00DB5FEB /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217419C2755C3FD00DB5FEB /* String+Extensions.swift */; };
+		E217419F2755D53400DB5FEB /* UITextfield+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E217419E2755D53400DB5FEB /* UITextfield+Extensions.swift */; };
+		E21741A12759BE0300DB5FEB /* DateSelecionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21741A02759BE0300DB5FEB /* DateSelecionTableViewController.swift */; };
+		E21741A3275D455100DB5FEB /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21741A2275D455100DB5FEB /* Date+Extensions.swift */; };
+		E21741A5275D7DAA00DB5FEB /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21741A4275D7DAA00DB5FEB /* Int+Extensions.swift */; };
+		E21741A7275D931800DB5FEB /* DCAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21741A6275D931800DB5FEB /* DCAService.swift */; };
+		E21741A9275DA6C200DB5FEB /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21741A8275DA6C200DB5FEB /* Double+Extensions.swift */; };
+		E21741AB275DBEC700DB5FEB /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21741AA275DBEC700DB5FEB /* UIColor+Extensions.swift */; };
+		E21741B327606E3800DB5FEB /* DCAServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21741B227606E3800DB5FEB /* DCAServiceTests.swift */; };
+		E21741BA2761BDF100DB5FEB /* CalculatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21741B92761BDF100DB5FEB /* CalculatorPresenter.swift */; };
+		E21741BC2761C44800DB5FEB /* CalculatorPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21741BB2761C44800DB5FEB /* CalculatorPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E21741B427606E3800DB5FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E21741652744989800DB5FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E217416C2744989800DB5FEB;
+			remoteInfo = "Bridge Rail";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3D05460A1CF214A5030A8737 /* Pods-Bridge Rail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bridge Rail.debug.xcconfig"; path = "Target Support Files/Pods-Bridge Rail/Pods-Bridge Rail.debug.xcconfig"; sourceTree = "<group>"; };
+		529A5BBD4F89979147342ABC /* Pods-Bridge Rail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bridge Rail.release.xcconfig"; path = "Target Support Files/Pods-Bridge Rail/Pods-Bridge Rail.release.xcconfig"; sourceTree = "<group>"; };
 		E217416D2744989800DB5FEB /* Bridge Rail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bridge Rail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21741702744989800DB5FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E21741722744989800DB5FEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E21741742744989800DB5FEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E21741742744989800DB5FEB /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		E21741772744989800DB5FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E21741792744989A00DB5FEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E217417C2744989A00DB5FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E217417E2744989A00DB5FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21741842744A7DD00DB5FEB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E2174188274ECA8700DB5FEB /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		E217418B274F2EFF00DB5FEB /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		E217418E274F334900DB5FEB /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		E21741902752DFEC00DB5FEB /* SearchPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPlaceholderView.swift; sourceTree = "<group>"; };
+		E21741932753051E00DB5FEB /* UIAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnimatable.swift; sourceTree = "<group>"; };
+		E217419527543E9400DB5FEB /* TimeSeriesMonthlyAdjusted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSeriesMonthlyAdjusted.swift; sourceTree = "<group>"; };
+		E217419727546D2900DB5FEB /* CalculatorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTableViewController.swift; sourceTree = "<group>"; };
+		E217419927555E3200DB5FEB /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		E217419C2755C3FD00DB5FEB /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		E217419E2755D53400DB5FEB /* UITextfield+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextfield+Extensions.swift"; sourceTree = "<group>"; };
+		E21741A02759BE0300DB5FEB /* DateSelecionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSelecionTableViewController.swift; sourceTree = "<group>"; };
+		E21741A2275D455100DB5FEB /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		E21741A4275D7DAA00DB5FEB /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		E21741A6275D931800DB5FEB /* DCAService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCAService.swift; sourceTree = "<group>"; };
+		E21741A8275DA6C200DB5FEB /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		E21741AA275DBEC700DB5FEB /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		E21741B027606E3800DB5FEB /* Bridge RailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bridge RailTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21741B227606E3800DB5FEB /* DCAServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCAServiceTests.swift; sourceTree = "<group>"; };
+		E21741B92761BDF100DB5FEB /* CalculatorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPresenter.swift; sourceTree = "<group>"; };
+		E21741BB2761C44800DB5FEB /* CalculatorPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPresenterTests.swift; sourceTree = "<group>"; };
+		F20243F2745FCFE064CBD5A2 /* Pods_Bridge_Rail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bridge_Rail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E217416A2744989800DB5FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC6345B3430605FE74F8468 /* Pods_Bridge_Rail.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21741AD27606E3800DB5FEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,11 +100,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		231FE0A947562DD2EACFD504 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F20243F2745FCFE064CBD5A2 /* Pods_Bridge_Rail.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B735F78C12C0EE4536106E51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D05460A1CF214A5030A8737 /* Pods-Bridge Rail.debug.xcconfig */,
+				529A5BBD4F89979147342ABC /* Pods-Bridge Rail.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E21741642744989800DB5FEB = {
 			isa = PBXGroup;
 			children = (
+				E21741842744A7DD00DB5FEB /* Podfile */,
 				E217416F2744989800DB5FEB /* Bridge Rail */,
+				E21741B127606E3800DB5FEB /* Bridge RailTests */,
 				E217416E2744989800DB5FEB /* Products */,
+				B735F78C12C0EE4536106E51 /* Pods */,
+				231FE0A947562DD2EACFD504 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				E217416D2744989800DB5FEB /* Bridge Rail.app */,
+				E21741B027606E3800DB5FEB /* Bridge RailTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +141,89 @@
 		E217416F2744989800DB5FEB /* Bridge Rail */ = {
 			isa = PBXGroup;
 			children = (
+				E217419B2755C3C800DB5FEB /* extensions */,
+				E2174192275304E000DB5FEB /* protocol */,
+				E217418D274F31C800DB5FEB /* model */,
+				E217418A274F2E4F00DB5FEB /* service */,
+				E2174187274EC9C800DB5FEB /* controller */,
+				E2174186274EC99F00DB5FEB /* view */,
 				E21741702744989800DB5FEB /* AppDelegate.swift */,
 				E21741722744989800DB5FEB /* SceneDelegate.swift */,
-				E21741742744989800DB5FEB /* ViewController.swift */,
 				E21741762744989800DB5FEB /* Main.storyboard */,
 				E21741792744989A00DB5FEB /* Assets.xcassets */,
 				E217417B2744989A00DB5FEB /* LaunchScreen.storyboard */,
 				E217417E2744989A00DB5FEB /* Info.plist */,
 			);
 			path = "Bridge Rail";
+			sourceTree = "<group>";
+		};
+		E2174186274EC99F00DB5FEB /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E2174188274ECA8700DB5FEB /* SearchTableViewCell.swift */,
+				E21741902752DFEC00DB5FEB /* SearchPlaceholderView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E2174187274EC9C800DB5FEB /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E21741742744989800DB5FEB /* SearchTableViewController.swift */,
+				E217419727546D2900DB5FEB /* CalculatorTableViewController.swift */,
+				E21741A02759BE0300DB5FEB /* DateSelecionTableViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		E217418A274F2E4F00DB5FEB /* service */ = {
+			isa = PBXGroup;
+			children = (
+				E217418B274F2EFF00DB5FEB /* APIService.swift */,
+				E21741A6275D931800DB5FEB /* DCAService.swift */,
+				E21741B92761BDF100DB5FEB /* CalculatorPresenter.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		E217418D274F31C800DB5FEB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E217418E274F334900DB5FEB /* SearchResults.swift */,
+				E217419527543E9400DB5FEB /* TimeSeriesMonthlyAdjusted.swift */,
+				E217419927555E3200DB5FEB /* Asset.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E2174192275304E000DB5FEB /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				E21741932753051E00DB5FEB /* UIAnimatable.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		E217419B2755C3C800DB5FEB /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E217419C2755C3FD00DB5FEB /* String+Extensions.swift */,
+				E217419E2755D53400DB5FEB /* UITextfield+Extensions.swift */,
+				E21741A2275D455100DB5FEB /* Date+Extensions.swift */,
+				E21741A4275D7DAA00DB5FEB /* Int+Extensions.swift */,
+				E21741A8275DA6C200DB5FEB /* Double+Extensions.swift */,
+				E21741AA275DBEC700DB5FEB /* UIColor+Extensions.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		E21741B127606E3800DB5FEB /* Bridge RailTests */ = {
+			isa = PBXGroup;
+			children = (
+				E21741B227606E3800DB5FEB /* DCAServiceTests.swift */,
+				E21741BB2761C44800DB5FEB /* CalculatorPresenterTests.swift */,
+			);
+			path = "Bridge RailTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E21741812744989A00DB5FEB /* Build configuration list for PBXNativeTarget "Bridge Rail" */;
 			buildPhases = (
+				574560AF1373E69A686E426D /* [CP] Check Pods Manifest.lock */,
 				E21741692744989800DB5FEB /* Sources */,
 				E217416A2744989800DB5FEB /* Frameworks */,
 				E217416B2744989800DB5FEB /* Resources */,
+				C037412F3B81722AAE3E6899 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -86,6 +247,24 @@
 			productName = "Bridge Rail";
 			productReference = E217416D2744989800DB5FEB /* Bridge Rail.app */;
 			productType = "com.apple.product-type.application";
+		};
+		E21741AF27606E3800DB5FEB /* Bridge RailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21741B627606E3800DB5FEB /* Build configuration list for PBXNativeTarget "Bridge RailTests" */;
+			buildPhases = (
+				E21741AC27606E3800DB5FEB /* Sources */,
+				E21741AD27606E3800DB5FEB /* Frameworks */,
+				E21741AE27606E3800DB5FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E21741B527606E3800DB5FEB /* PBXTargetDependency */,
+			);
+			name = "Bridge RailTests";
+			productName = "Bridge RailTests";
+			productReference = E21741B027606E3800DB5FEB /* Bridge RailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +278,10 @@
 				TargetAttributes = {
 					E217416C2744989800DB5FEB = {
 						CreatedOnToolsVersion = 13.2;
+					};
+					E21741AF27606E3800DB5FEB = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = E217416C2744989800DB5FEB;
 					};
 				};
 			};
@@ -116,6 +299,7 @@
 			projectRoot = "";
 			targets = (
 				E217416C2744989800DB5FEB /* Bridge Rail */,
+				E21741AF27606E3800DB5FEB /* Bridge RailTests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,24 +311,108 @@
 			files = (
 				E217417D2744989A00DB5FEB /* LaunchScreen.storyboard in Resources */,
 				E217417A2744989A00DB5FEB /* Assets.xcassets in Resources */,
+				E21741852744A7DD00DB5FEB /* Podfile in Resources */,
 				E21741782744989800DB5FEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E21741AE27606E3800DB5FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		574560AF1373E69A686E426D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bridge Rail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C037412F3B81722AAE3E6899 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bridge Rail/Pods-Bridge Rail-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bridge Rail/Pods-Bridge Rail-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bridge Rail/Pods-Bridge Rail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E21741692744989800DB5FEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21741752744989800DB5FEB /* ViewController.swift in Sources */,
+				E21741752744989800DB5FEB /* SearchTableViewController.swift in Sources */,
+				E21741942753051E00DB5FEB /* UIAnimatable.swift in Sources */,
+				E217418C274F2EFF00DB5FEB /* APIService.swift in Sources */,
+				E217419A27555E3200DB5FEB /* Asset.swift in Sources */,
+				E217419D2755C3FD00DB5FEB /* String+Extensions.swift in Sources */,
+				E21741A5275D7DAA00DB5FEB /* Int+Extensions.swift in Sources */,
+				E21741BA2761BDF100DB5FEB /* CalculatorPresenter.swift in Sources */,
+				E217419827546D2900DB5FEB /* CalculatorTableViewController.swift in Sources */,
+				E2174189274ECA8700DB5FEB /* SearchTableViewCell.swift in Sources */,
 				E21741712744989800DB5FEB /* AppDelegate.swift in Sources */,
+				E21741A3275D455100DB5FEB /* Date+Extensions.swift in Sources */,
+				E21741AB275DBEC700DB5FEB /* UIColor+Extensions.swift in Sources */,
+				E217419627543E9400DB5FEB /* TimeSeriesMonthlyAdjusted.swift in Sources */,
+				E21741A7275D931800DB5FEB /* DCAService.swift in Sources */,
+				E21741A9275DA6C200DB5FEB /* Double+Extensions.swift in Sources */,
+				E217418F274F334900DB5FEB /* SearchResults.swift in Sources */,
 				E21741732744989800DB5FEB /* SceneDelegate.swift in Sources */,
+				E21741A12759BE0300DB5FEB /* DateSelecionTableViewController.swift in Sources */,
+				E217419F2755D53400DB5FEB /* UITextfield+Extensions.swift in Sources */,
+				E21741912752DFEC00DB5FEB /* SearchPlaceholderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E21741AC27606E3800DB5FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21741BC2761C44800DB5FEB /* CalculatorPresenterTests.swift in Sources */,
+				E21741B327606E3800DB5FEB /* DCAServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E21741B527606E3800DB5FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E217416C2744989800DB5FEB /* Bridge Rail */;
+			targetProxy = E21741B427606E3800DB5FEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E21741762744989800DB5FEB /* Main.storyboard */ = {
@@ -284,6 +552,7 @@
 		};
 		E21741822744989A00DB5FEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D05460A1CF214A5030A8737 /* Pods-Bridge Rail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,9 +560,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bridge Rail/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bridge Rail";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,6 +582,7 @@
 		};
 		E21741832744989A00DB5FEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 529A5BBD4F89979147342ABC /* Pods-Bridge Rail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,9 +590,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Bridge Rail/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bridge Rail";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,6 +607,40 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E21741B727606E3800DB5FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blairzhou.Bridge-RailTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bridge Rail.app/Bridge Rail";
+			};
+			name = Debug;
+		};
+		E21741B827606E3800DB5FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blairzhou.Bridge-RailTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bridge Rail.app/Bridge Rail";
 			};
 			name = Release;
 		};
@@ -353,6 +661,15 @@
 			buildConfigurations = (
 				E21741822744989A00DB5FEB /* Debug */,
 				E21741832744989A00DB5FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E21741B627606E3800DB5FEB /* Build configuration list for PBXNativeTarget "Bridge RailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21741B727606E3800DB5FEB /* Debug */,
+				E21741B827606E3800DB5FEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
